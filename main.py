@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 
-# ========== 固定随机种子，保证实验可以复现（作业评分要求） ==========
+# ========== 固定随机种子，保证实验可以复现 ==========
 seed = 42
 torch.manual_seed(seed)
 np.random.seed(seed)
